@@ -91,7 +91,7 @@ def add_button_pressed():
 
 main_window = Tk()
 main_window.title("Password Generator")
-main_window.config(padx=50, pady=50, background="#E7DBCC")
+main_window.config(padx=50, pady=50)
 
 canvas = Canvas(height=200, width=200)
 password_logo = PhotoImage(file="logo.png")
